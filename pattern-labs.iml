@@ -4,6 +4,38 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/ChainOfResponsibility/ChainOfResponsibilityJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Command/CommandJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Iterator/IteratorJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Mediator/MediatorJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Memento/MementoJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Observer/ObserverJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/State/StateJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Strategy/StrategyJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/TemplateMethod/TemplateMethodJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Behavioral/Visitor/VisitorJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/AbstractFactory/AbstractFactoryJava/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/AbstractFactory/AbstractFactoryJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/Builder/BuilderJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/FactoryMethod/FactoryMethodJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/Prototype/PrototypeJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/Singleton/SingletonCSharp/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/Singleton/SingletonJava/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Creational/Singleton/SingletonJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab1/Lab1Java/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab2/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab3/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab32/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Lab32/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Adapter/AdapterJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Bridge/BridgeJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Composite/CompositeJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Decorator/DecoratorJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Facade/FacadeJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Flyweight/FlyweightJava/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Structural/Proxy/ProxyJava/bin" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
