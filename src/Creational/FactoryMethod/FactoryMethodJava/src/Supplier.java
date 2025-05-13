@@ -30,7 +30,9 @@ public class Supplier {
 	{
 		Window window = createWindow();
 		System.out.printf("Установлено %s\n", window);
-		onInstall(window); // hook
+		// hook
+		onInstall(window);
+
 		return window;
 	}
 }
