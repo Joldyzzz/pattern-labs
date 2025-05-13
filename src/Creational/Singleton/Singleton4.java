@@ -2,6 +2,7 @@ package Creational.Singleton;
 
 // Double checked lock
 // + Thread safe
+// + Lazy init
 // +- perfomance better then sync
 public class Singleton4 {
     private Singleton4() {

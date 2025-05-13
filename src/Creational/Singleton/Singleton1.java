@@ -1,6 +1,6 @@
 package Creational.Singleton;
 
-// - lazy init
+// + lazy init
 // - non thread safe
 public class Singleton1 {
 

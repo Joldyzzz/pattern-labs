@@ -23,32 +23,32 @@ public class Program {
             out.println(s1);
             out.println(s2);
         }
-		/*{
-			Creational.Singleton.Singleton4 s1 = Creational.Singleton.Singleton4.getInstance();
-			Creational.Singleton.Singleton4 s2 = Creational.Singleton.Singleton4.getInstance();
-			out.println(s1);
-			out.println(s2);
-		}
-		{
-			Creational.Singleton.Singleton5 s1 = Creational.Singleton.Singleton5.getInstance();
-			Creational.Singleton.Singleton5 s2 = Creational.Singleton.Singleton5.getInstance();
-			out.println(s1);
-			out.println(s2);
-		}
-		{
-			Creational.Singleton.Singleton6 s1 = Creational.Singleton.Singleton6.instance;
-			Creational.Singleton.Singleton6 s2 = Creational.Singleton.Singleton6.instance;
-			out.println(s1);
-			out.println(s2);
-		}
-		{
-			Creational.Singleton.Singleton7 s1 = Creational.Singleton.Singleton7.instance;
-			Creational.Singleton.Singleton7 s2 = Creational.Singleton.Singleton7.instance;
-			out.println(s1);
-			out.println(s2);
-			s1.someMethod();
-			s2.someMethod();
-		}*/
+        {
+            Singleton4 s1 = Singleton4.getInstance();
+            Singleton4 s2 = Singleton4.getInstance();
+            out.println(s1);
+            out.println(s2);
+        }
+        {
+            Singleton5 s1 = Singleton5.getInstance();
+            Singleton5 s2 = Singleton5.getInstance();
+            out.println(s1);
+            out.println(s2);
+        }
+        {
+            Singleton6 s1 = Singleton6.instance;
+            Singleton6 s2 = Singleton6.instance;
+            out.println(s1);
+            out.println(s2);
+        }
+        {
+            Singleton7 s1 = Singleton7.instance;
+            Singleton7 s2 = Singleton7.instance;
+            out.println(s1);
+            out.println(s2);
+            s1.someMethod();
+            s2.someMethod();
+        }
 
     }
 
