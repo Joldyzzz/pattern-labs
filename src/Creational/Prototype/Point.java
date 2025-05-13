@@ -20,7 +20,7 @@ public class Point implements Cloneable {
 
     @Override
     public String toString() {
-        return String.format("Creational.Prototype.Point (%d,%d)", x, y);
+        return String.format("Point (%d,%d)", x, y);
     }
 
 }

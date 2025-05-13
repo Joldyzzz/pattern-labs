@@ -24,7 +24,7 @@ public class ColorPoint extends Point implements Prototype {
 
     @Override
     public String toString() {
-        return String.format("Color Creational.Prototype.Point (%d,%d) %s", x, y, color);
+        return String.format("Color Point (%d,%d) %s", x, y, color);
     }
 
 }
