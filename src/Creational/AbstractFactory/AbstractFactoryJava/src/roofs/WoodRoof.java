@@ -2,18 +2,18 @@ package Creational.AbstractFactory.AbstractFactoryJava.src.roofs;
 
 import static java.lang.System.out;
 
-public class WoodRoof implements Roof{
+public class WoodRoof implements Roof {
 
-	@Override
-	public Roof cover() {
-		out.println("Покрыли деревянную крышу");
-		return this;
-	}
+    @Override
+    public Roof cover() {
+        out.println("Покрыли деревянную крышу");
+        return this;
+    }
 
-	@Override
-	public void waterProtect() {
-		out.println("Сделали гидроизоляцию деревянной крыши");
+    @Override
+    public void waterProtect() {
+        out.println("Сделали гидроизоляцию деревянной крыши");
 
-	}
+    }
 
 }

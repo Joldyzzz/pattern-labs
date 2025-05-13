@@ -9,19 +9,19 @@ import Creational.AbstractFactory.AbstractFactoryJava.src.windows.Window;
 
 public class StoneHouseFactory implements HouseFactory {
 
-	@Override
-	public Wall createWall() {
-		return new BrickWall();
-	}
+    @Override
+    public Wall createWall() {
+        return new BrickWall();
+    }
 
-	@Override
-	public Roof createRoof() {
-		return new TileRoof();
-	}
+    @Override
+    public Roof createRoof() {
+        return new TileRoof();
+    }
 
-	@Override
-	public Window createWindow() {
-		return new PlasticFrameWindow();
-	}
+    @Override
+    public Window createWindow() {
+        return new PlasticFrameWindow();
+    }
 
 }

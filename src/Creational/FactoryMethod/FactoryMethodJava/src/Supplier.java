@@ -7,32 +7,31 @@ import Creational.FactoryMethod.FactoryMethodJava.src.windows.Window;
 // Фабричные методы могут параметризированы с целью создания
 // разных видов продуктов
 public class Supplier {
-	public Window createWindow() {
-		return new Window() {
-			@Override
-			public String toString() {
-				return "Окно";
-			}
-			@Override
-			public void open() {
-				System.out.println("Открыли окно");
-			}
-		};
-	}
+    public Window createWindow() {
+        return new Window() {
+            @Override
+            public String toString() {
+                return "Окно";
+            }
 
-	// hook
-	protected void onInstall(Window window)
-	{
-		Program.windows.add(window);
-	}
+            @Override
+            public void open() {
+                System.out.println("Открыли окно");
+            }
+        };
+    }
 
-	public Window install()
-	{
-		Window window = createWindow();
-		System.out.printf("Установлено %s\n", window);
-		// hook
-		onInstall(window);
+    // hook
+    protected void onInstall(Window window) {
+        Program.windows.add(window);
+    }
 
-		return window;
-	}
+    public Window install() {
+        Window window = createWindow();
+        System.out.printf("Установлено %s\n", window);
+        // hook
+        onInstall(window);
+
+        return window;
+    }
 }

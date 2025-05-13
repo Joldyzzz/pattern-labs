@@ -1,13 +1,13 @@
 package Creational.FactoryMethod.FactoryMethodJava.src.windows;
 
-public class MetalFrameWindow  implements Window {
-	@Override
-	public void open() {
-		System.out.println("Открыли металлическое окно");
-	}
-	
-	@Override
-	public String toString() {
-		return "Металлическое окно";
-	}
+public class MetalFrameWindow implements Window {
+    @Override
+    public void open() {
+        System.out.println("Открыли металлическое окно");
+    }
+
+    @Override
+    public String toString() {
+        return "Металлическое окно";
+    }
 }
