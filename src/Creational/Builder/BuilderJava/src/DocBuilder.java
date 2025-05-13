@@ -12,7 +12,7 @@ public class DocBuilder implements Builder {
     }
 
     @Override
-    public void perpare() {
+    public void prepare() {
         out.println("Получение разрешения на строительство ");
         doc.setBase(true);
     }
@@ -30,7 +30,7 @@ public class DocBuilder implements Builder {
     }
 
     @Override
-    public void finsish() {
+    public void finish() {
         out.println("Акт ввода в эксплуатацию");
         doc.setFinish(true);
     }

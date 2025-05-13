@@ -9,11 +9,11 @@ public class Director {
 
     public void make(boolean withServiceLine) {
         builder.reset();
-        builder.perpare();
+        builder.prepare();
         builder.mainWork();
         if (withServiceLine)
             builder.addServiceLines();
-        builder.finsish();
+        builder.finish();
     }
 
 }

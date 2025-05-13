@@ -4,12 +4,12 @@ public interface Builder {
 
     void reset();
 
-    void perpare();
+    void prepare();
 
     void mainWork();
 
     void addServiceLines();
 
-    void finsish();
+    void finish();
 
 }
