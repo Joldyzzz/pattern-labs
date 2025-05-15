@@ -21,10 +21,10 @@ public class Program {
 
     public static void main(String[] args) {
 		
-		/*System.gc();
+		System.gc();
 		System.out.print("Without Flyweight ");
 		createNature(new AnimalFactory());
-		showMemoryUsage();*/
+		showMemoryUsage();
 
         System.gc();
         System.out.print("With Flyweight ");

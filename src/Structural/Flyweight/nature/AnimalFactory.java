@@ -17,5 +17,4 @@ public class AnimalFactory {
         return new Animal(r.nextInt(), r.nextInt(), "Images/snail.png");
     }
 
-
 }
