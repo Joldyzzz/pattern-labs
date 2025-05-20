@@ -1,5 +1,8 @@
 package LaboratoryWorks.Lab2;
 
-public interface GraphObject {
-    void draw();
+public abstract class GraphObject {
+    public GraphObject() {
+    }
+
+    public abstract void draw();
 }

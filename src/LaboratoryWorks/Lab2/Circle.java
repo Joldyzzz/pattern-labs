@@ -1,6 +1,6 @@
 package LaboratoryWorks.Lab2;
 
-public class Circle implements GraphObject {
+public class Circle extends GraphObject {
     private int aX, aY, r;
     private String color;
 

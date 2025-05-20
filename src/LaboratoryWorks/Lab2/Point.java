@@ -1,6 +1,6 @@
 package LaboratoryWorks.Lab2;
 
-public class Point implements GraphObject {
+public class Point extends GraphObject {
     private int aX, aY;
     private String color;
 

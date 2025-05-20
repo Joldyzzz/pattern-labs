@@ -1,6 +1,6 @@
 package LaboratoryWorks.Lab2;
 
-public class Line implements GraphObject {
+public class Line extends GraphObject {
     private int aX, aY, bX, bY;
     private String color;
 

@@ -1,6 +1,6 @@
 package LaboratoryWorks.Lab2;
 
-public class TriangleAdapter implements GraphObject {
+public class TriangleAdapter extends GraphObject {
     private Triangle triangle;
     private String color;
 

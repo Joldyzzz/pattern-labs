@@ -4,22 +4,19 @@ public class Program {
     public static void main(String[] args) {
         BaseFactory colorFactory = new ColorFactory();
 
-        System.out.println("Результат отрисовки цветной фабрики:");
-
-        colorFactory.createPoint().draw();
-        colorFactory.createLine().draw();
-        colorFactory.createCircle().draw();
-        colorFactory.createTriangle().draw();
+        colorFactory.createPoint();
+        colorFactory.createLine();
+        colorFactory.createCircle();
+        colorFactory.createTriangle();
 
         BaseFactory blakWhiteFactory = new BlackWhiteFactory();
 
-        System.out.println();
-        System.out.println("Результат отрисовки черно-белой фабрики:");
+        blakWhiteFactory.createPoint();
+        blakWhiteFactory.createLine();
+        blakWhiteFactory.createCircle();
+        blakWhiteFactory.createTriangle();
 
-        blakWhiteFactory.createPoint().draw();
-        blakWhiteFactory.createLine().draw();
-        blakWhiteFactory.createCircle().draw();
-        blakWhiteFactory.createTriangle().draw();
+        Scene.instance.showScene("point 10 20 red", "line 10 20 30 40 red", "circle 2 3 4 red");
 
     }
 }
