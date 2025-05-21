@@ -14,7 +14,12 @@ public class Program {
         gof.createCircle().setColor("blue");
 
         Scene.instance.draw();
+
+        System.out.println("Json:");
         Scene.instance.exportToJSON();
+
+        System.out.println("XML:");
+        Scene.instance.exportToXML();
 
     }
 

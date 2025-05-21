@@ -3,6 +3,7 @@ package LaboratoryWorks.Lab32.graph;
 import LaboratoryWorks.Lab32.exports.ExportVisitor;
 import LaboratoryWorks.Lab32.exports.Exportable;
 import LaboratoryWorks.Lab32.exports.JSONExportVisitor;
+import LaboratoryWorks.Lab32.exports.XMLExportVisitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -33,6 +34,8 @@ public class Scene {
         ExportVisitor visitor = new JSONExportVisitor();
         Iterator<GraphObject> iter = objects.iterator();
         System.out.print('[');
+        System.out.print("\n");
+
         while (iter.hasNext()) {
             GraphObject g = iter.next();
             if (g instanceof Exportable) {
@@ -40,7 +43,27 @@ public class Scene {
                 if (iter.hasNext()) System.out.println(',');
             }
         }
+
+        System.out.print("\n");
         System.out.println(']');
+    }
+
+    public void exportToXML() {
+        ExportVisitor visitor = new XMLExportVisitor();
+        Iterator<GraphObject> iter = objects.iterator();
+        System.out.print("<XML>");
+        System.out.print("\n");
+
+        while (iter.hasNext()) {
+            GraphObject g = iter.next();
+            if (g instanceof Exportable) {
+                ((Exportable) g).accept(visitor);
+                if (iter.hasNext()) System.out.println(',');
+            }
+        }
+
+        System.out.print("\n");
+        System.out.println("</XML>");
     }
 
 
