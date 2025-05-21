@@ -1,5 +1,6 @@
 package LaboratoryWorks.Lab31;
 
+import LaboratoryWorks.Lab31.events.Switcher;
 import LaboratoryWorks.Lab31.widgets.Button;
 import LaboratoryWorks.Lab31.widgets.CompositeControl;
 import LaboratoryWorks.Lab31.widgets.Label;
@@ -21,6 +22,10 @@ public class Program {
         mainWin.draw();
         printButton.press();
 
+        // Нажатие через выключатель
+        Switcher sw = new Switcher();
+        sw.addHandleListener(printButton);
+        sw.switchOn();
     }
 
 }

@@ -1,10 +1,11 @@
 package LaboratoryWorks.Lab31.widgets;
 
 import LaboratoryWorks.Lab31.events.EventRequest;
+import LaboratoryWorks.Lab31.events.HandleListener;
 
 import static java.lang.System.out;
 
-public class Button extends ContentControl {
+public class Button extends ContentControl implements HandleListener {
     final static char BUTTON_FRAME = '*';
 
     public Button() {
@@ -42,16 +43,15 @@ public class Button extends ContentControl {
         return 3;
     }
 
-    @Override
-    public void handle(EventRequest request) {
-        out.println("Button pressed handled");
-        //request.setHandled(true);
-        super.handle(request);
-    }
-
     public void press() {
         out.println("Button pressed");
         handle(new EventRequest());
+    }
+
+    @Override
+    public void buttonClick(Object source)
+    {
+        System.out.println("Кнопка нажата через выключатель");
     }
 
 }
